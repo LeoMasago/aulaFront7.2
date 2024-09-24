@@ -1,0 +1,68 @@
+$name:destaque;
+$attr:border;
+
+$width:1000px;
+$base-size:20px;
+$line-height:22px;
+
+p.#{$name}{
+    #{$attr}-color:blue;
+}
+
+.msg{
+    border: 1px solid;
+    padding: 4px;
+    text-align: center;
+}
+
+.msg-error{
+    @extend.msg;
+    border-color: #ff0000;
+    color: #ff0000;
+}
+.msg-alert{
+    @extend.msg;
+    border-color: #ff8e00;
+    color: #ff8e00;
+}
+
+h1{
+    font-size: 2em * 22;
+}
+
+p{
+    font: 10px/8px bold italic serif;
+    width: $width/2;
+    width: round(1.5)/2;
+    height: (500px/2);
+    margin-left: 5px + 8px/2;
+    font: (italic bold 10px/8px);
+    font-size: #{$base-size} / #{$line-height};
+}
+
+.btn{
+    width: 100px;
+    border-width: 10px;
+    border-style: dotted;
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+}
+.btn1{
+    @extend.btn;
+    font-size: 9px *2;
+}
+.btn2{
+    @extend.btn;
+    width: 100px + 100;
+    font-size: 1rem + 1;
+}
+.btn3{
+    @extend.btn;
+}
+.btn4{
+    @extend.btn;
+}
+.btn5{
+    @extend.btn;
+}

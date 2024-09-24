@@ -1,0 +1,42 @@
+p.destaque {
+  border-color: blue; }
+
+.msg, .msg-error, .msg-alert {
+  border: 1px solid;
+  padding: 4px;
+  text-align: center; }
+
+.msg-error {
+  border-color: #ff0000;
+  color: #ff0000; }
+
+.msg-alert {
+  border-color: #ff8e00;
+  color: #ff8e00; }
+
+h1 {
+  font-size: 44em; }
+
+p {
+  font: 10px/8px bold italic serif;
+  width: 500px;
+  width: 1;
+  height: 250px;
+  margin-left: 9px;
+  font: italic bold 10px/8px;
+  font-size: 20px / 22px; }
+
+.btn, .btn1, .btn2, .btn3, .btn4, .btn5 {
+  width: 100px;
+  border-width: 10px;
+  border-style: dotted;
+  border-radius: 10px;
+  padding: 20px;
+  height: auto; }
+
+.btn1 {
+  font-size: 18px; }
+
+.btn2 {
+  width: 200px;
+  font-size: 2rem; }
